@@ -32,7 +32,7 @@ class _MyAppState extends State<MyApp> {
             children: <Widget>[
               if (turn[0] == "win")
                 Text(
-                  "Game Over",
+                  "Game Finised and won by " + turn[0],
                   style: TextStyle(fontSize: 30),
                 ),
               if (turn[0] == "left")
